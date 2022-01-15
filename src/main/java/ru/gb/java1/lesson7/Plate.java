@@ -33,6 +33,7 @@ public class Plate {
         food = scan.nextInt();
         this.food = this.food + food;
         System.out.println("Теперь в тарелке "+ this.food+" еды.");
+        scan.close();
         return true;
     }
 
